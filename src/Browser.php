@@ -11,8 +11,7 @@ use Facebook\WebDriver\Remote\WebDriverBrowserType;
 
 class Browser
 {
-    use Concerns\InteractsWithAuthentication,
-        Concerns\InteractsWithCookies,
+    use Concerns\InteractsWithCookies,
         Concerns\InteractsWithElements,
         Concerns\InteractsWithJavascript,
         Concerns\InteractsWithMouse,
