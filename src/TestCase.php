@@ -6,9 +6,8 @@ use Exception;
 use Laravel\Dusk\Chrome\SupportsChrome;
 use Facebook\WebDriver\Remote\RemoteWebDriver;
 use Facebook\WebDriver\Remote\DesiredCapabilities;
-use Illuminate\Foundation\Testing\TestCase as FoundationTestCase;
 
-abstract class TestCase extends FoundationTestCase
+abstract class TestCase extends \Laravel\Lumen\Testing\TestCase
 {
     use Concerns\ProvidesBrowser,
         SupportsChrome;
