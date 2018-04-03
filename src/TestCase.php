@@ -17,7 +17,7 @@ abstract class TestCase extends \Laravel\Lumen\Testing\TestCase
      *
      * @return void
      */
-    protected function setUp()
+    public function setUp()
     {
         parent::setUp();
 
